@@ -1,5 +1,5 @@
 # Huffman
-The Huffman project is a data compression program developed using Java and Visual Studio Code. The program takes an input file and compresses it into an encoded file using a lossless compression technique called Huffman coding. This technique is used to reduce the data size without any loss of information.
+The Huffman project is a data compression program developed using Java. The program takes an input file and compresses it into an encoded file using a lossless compression technique called Huffman coding. This technique is used to reduce the data size without any loss of information.
 
 The program works by first analyzing the input file to determine the frequency of occurrence of each character. It then uses this information to create a Huffman tree, which is a binary tree where each leaf node represents a character in the input file and each internal node represents the merging of two leaf nodes. The frequency of occurrence of each character determines its position in the Huffman tree. Characters with higher frequency will be closer to the root of the tree and characters with lower frequency will be closer to the leaves.
 
